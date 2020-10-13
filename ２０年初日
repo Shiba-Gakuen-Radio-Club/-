@@ -1,0 +1,20 @@
+
+4/4に解説したものです
+
+visual studio 2019から
+デスクトップウィザードのコンソールアプリケーションで空のプロジェクトを作成してください
+
+
+#include<stdio.h>//この関数を使えるようにするもの
+int a = 2;//これが変数
+int b = 5;
+int kakezan() {//これが関数
+	return a * b;
+}
+void main() {
+	printf_s("%d\n", a);//aを表示するよという関数
+	printf_s("%d", kakezan());
+}
+
+visual studioを導入していない人は
+visual studio 2019 communityを導入してください
